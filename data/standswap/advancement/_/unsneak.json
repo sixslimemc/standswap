@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"main": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": false
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "standswap:_/adv/unsneak"
+	}
+}
