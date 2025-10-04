@@ -24,6 +24,6 @@ item replace entity @s armor.feet from entity @p[tag=_standswap.swap_player] arm
 item replace entity @p[tag=_standswap.swap_player,distance=..0.1] armor.feet from entity @n[type=item_display,tag=_standswap.swap_temp,distance=..0.1] container.0
 
 execute at @s run playsound minecraft:block.shelf.place_item player @a ~ ~ ~ 1 1.4
-damage @s 0.5 player_attack by @p[tag=_standswap.swap_player,distance=..0.1]
+damage @s 0.5 player_attack by @p[gamemode=!creative,tag=_standswap.swap_player,distance=..0.1]
 
 tag @s remove _standswap.swap_stand

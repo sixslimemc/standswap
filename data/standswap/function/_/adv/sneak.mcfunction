@@ -4,4 +4,4 @@
 #--------------------
 advancement revoke @s only standswap:_/unsneak
 
-execute if predicate standswap:_/on_ground run function standswap:_/player/on_sneak
+execute if predicate standswap:_/can_swap run function standswap:_/player/on_sneak
